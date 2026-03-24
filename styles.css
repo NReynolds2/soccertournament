@@ -7,7 +7,7 @@ body{margin:0; background:var(--bg); color:var(--text); font-family:Impact, Haet
 .container{max-width:980px; margin:0 auto; padding:0 1rem 3rem}
 .site-header{display:flex; flex-direction:column; align-items:center; padding:1rem 1rem .5rem}
 .logo-wrap{display:grid; place-items:center}
-.logo{display:block; width:660px; height:auto; object-fit:contain}
+.logo{display:block; width:100%; height:auto; object-fit:contain}
 .site-title{margin:.4rem 0 0; font-weight:700; font-size:3rem; letter-spacing: 5px; text-align:center; font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;}
 .card{background:none; border:none; padding:1.2rem 0; margin:2rem 0}
 .card h2{text-align:center; font-size:2rem; letter-spacing: 2px; font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; margin-top:0}
