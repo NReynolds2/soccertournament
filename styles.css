@@ -1,0 +1,24 @@
+
+
+:root{ --bg:#ffffff; --text:#111111; --muted:#636e7b; --border:#d0d7de; }
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0; background:var(--bg); color:var(--text); font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; line-height:1.4}
+.container{max-width:980px; margin:0 auto; padding:0 1rem 3rem}
+.site-header{display:flex; flex-direction:column; align-items:center; padding:1rem 1rem .5rem}
+.logo-wrap{display:grid; place-items:center}
+.logo{display:block; width:660px; height:auto; object-fit:contain}
+.site-title{margin:.4rem 0 0; font-weight:700; font-size:3rem; letter-spacing: 5px; text-align:center; font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;}
+.card{background:none; border:none; padding:1.2rem 0; margin:2rem 0}
+.card h2{text-align:center; font-size:2rem; letter-spacing: 2px; font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; margin-top:0}
+.muted{color:var(--muted)}
+.status{margin:.5rem 0 1rem; color:var(--muted)}
+.table-container{overflow-x:auto}
+.table{width:100%; border-collapse:collapse; background:#fff; font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif}
+.table th,.table td{padding:.7rem .8rem; border-bottom:1px solid var(--border)}
+.table thead th{position:sticky; top:0; background:#f0f3f6}
+.game-row td{ background:#fff; font-size:1.05rem; color:#111; border-bottom:1px solid var(--border); }
+.game-row:hover td{ background:#eef6ff; }
+.transition-row td{ background:#f5f6f7; color:var(--muted); font-size:0.85rem; border-bottom:1px solid var(--border); }
+.transition-row:hover td{ background:#eef6ff; }
+.site-footer{padding:2rem 1rem; text-align:center; color:var(--muted); font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif}
